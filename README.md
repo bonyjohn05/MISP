@@ -16,7 +16,7 @@ Relevant fields (such as srcip, dstip, hashes, domains, URLs, etc.) are extracte
 ### Steps
 #### Step 1 — Configure the MISP Server
 Set up and configure the MISP server. Generate an API key that will be used to pull IOCs.
-Refer to the official MISP documentation for installation and configuration guidance.
+Refer to the official [MISP documentation](https://blogs.vmware.com/security/2023/01/how-to-deploy-a-threat-intelligence-platform-in-your-data-center.html#:~:text=features%20and%20fixes.-,Running%20MISP%C2%A0,-Pulling%20or%20building) for installation and configuration guidance.
 
 #### Step 2 — Install Required Packages
 Required tools:
