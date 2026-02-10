@@ -154,11 +154,13 @@ chown root:wazuh /var/ossec/integrations/custom-misp.py
 Edit: `/var/ossec/etc/ossec.conf`
 
 Add:
+```bash
 <integration>
   <name>custom-misp.py</name>
   <level>10</level>
   <alert_format>json</alert_format>
 </integration>
+```
 This triggers the script for alerts with rule level ≥ 10.
 You can refer this [Wazuh documentation](https://documentation.wazuh.com/current/user-manual/manager/integration-with-external-apis.html#custom-integration) for more detaisdl.
 
